@@ -79,7 +79,7 @@ main {
 }
 
 to {
-  color: gray;
+  color: rgb(236, 148, 148);
  text-shadow: 0 0 20px #10e2d8, 0 0 30px #00fff2, 0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2, 0 0 80px #00fff2, 0 1 90px #00fff2;
 }
 }
@@ -112,4 +112,28 @@ footer h2 {
 .middle-footer img {
   width: 50px;
   height: 30px;
+}
+
+.img-shop {
+  max-width: 80%;
+}
+
+.img-shop img {
+  height: 250px;
+  width: 400px;
+}
+
+.img-shop img:hover {
+  width: 500px;
+  background-color: red; 
+  background-image: linear-gradient(red, yellow);
+  box-shadow: 15px 10px rgba(173, 142, 142, 0.75);
+}
+
+.w-90 {
+  width: 90%;
+}
+
+.bg-s {
+  background: linear-gradient(to left, rgb(226, 222, 222), rgb(180, 176, 176) 50%, rgb(233, 168, 168) 75%, rgb(136, 131, 131) 75%);
 }
