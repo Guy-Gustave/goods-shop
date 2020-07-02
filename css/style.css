@@ -28,13 +28,7 @@ nav {
 
 main {
   background-color: rgb(115, 131, 88);
-}
-
-.nav-list {
-  width: 200px;
-  height: 50px;
-  background-color: #304241;
-  border-radius: 8px;
+  color: #fff;
 }
 
 .nav-list a{
@@ -42,10 +36,11 @@ main {
   text-decoration: none;
 }
 
-.nav-list input {
-  border-radius: 15px;
-  width: 180px;
-  height: 20px;
+.nav-list button {
+  width: 200px;
+  height: 50px;
+  background: linear-gradient(to left, rgb(226, 222, 222)75%, rgb(180, 176, 176) 50%, rgb(233, 168, 168) 75%, rgb(238, 203, 203) 75%);
+  border-radius: 10px;
 }
 
 .articles img {
@@ -61,6 +56,11 @@ main {
   font-size: 2rem;
   text-align: center;
   color: #13c7e7;
+}
+
+.artics h2:hover {
+  color: antiquewhite;
+  font-size: large;
 }
 
 .title h1 {
@@ -103,8 +103,8 @@ footer h2 {
 }
 
 .socials a img {
-  width: 33px;
-  height: 33px;
+  width: 20px;
+  height: 20px;
   margin: 0 5px;
   filter: invert(100%);
 }
@@ -120,7 +120,7 @@ footer h2 {
 
 .img-shop img {
   height: 250px;
-  width: 400px;
+  max-width: 400px;
 }
 
 .img-shop img:hover {
@@ -130,10 +130,15 @@ footer h2 {
   box-shadow: 15px 10px rgba(173, 142, 142, 0.75);
 }
 
+.griz img:hover {
+  width: 400px;
+  height: 300px;
+}
+
 .w-90 {
   width: 90%;
 }
 
 .bg-s {
-  background: linear-gradient(to left, rgb(226, 222, 222), rgb(180, 176, 176) 50%, rgb(233, 168, 168) 75%, rgb(136, 131, 131) 75%);
+  background: linear-gradient(to right, rgb(170, 143, 143)90%, rgb(135, 184, 165) 50%, rgb(65, 134, 146) 75%, rgb(204, 156, 156) 75%);
 }
