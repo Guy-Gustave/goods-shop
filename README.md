@@ -2,9 +2,9 @@
 Capstone project solo, html project built at the end of the first of  Main Technical Curriculum sections. 
 
 ## This is a clone application of GOODS-SHOP.
-<img src="images/scren1.png" width="700px"> 
-<img src="images/scren2.png" width="80%"> 
-<img src="images/scren2.png" width="80%"> 
+<img src="ressources/capt1.png" width="700px"> 
+<img src="ressources/capt2.png" width="700px"> 
+<img src="ressources/capt3.png" width="700px"> 
 <br />
 <p align="center">
    <h3 align="center">GOODS-SHOP</h3>
