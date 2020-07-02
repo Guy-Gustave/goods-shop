@@ -4,67 +4,119 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>electronics e-shop</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <!-- style.css -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/reset.css">
 </head>
 <body>
-  <nav>
-    <div class="navbar">
-      <ul class="lists">
-        <li>
-          <a href="">
-            <img src="" alt="">
-            ><span > ZATTIZ</span>
-            </a>
-        </li>
-        <li>
-          <a href="#">
-            <img src="ressources/HOME.png">
-            <span > home</span></a>
-        </li>
-        <li>
-          <a href="#">
-            <img src="ressources/hosting.svg"
-            ><span> COLLECTIONS</span></a>
-        </li>
-        <li >
-          <a href="#">
-            <img src="ressources/shop_cart.png"
-            ><span class="tablet-hidden"> PURCHASE LIST</span></a>
-        </li>
-        <li>
-          <a href="#">post and</a>
-        </li>
+  <nav class="container-fluid d-flex justify-content-between align-content-center w-100" >  
+    <div class=" left-nav d-flex flex-row text-white text-bolder m-2 ">         
+      <img src="ressources/shop.jpg">
+      <h3 class="name mx-3"> KAZE </h3>
+    </div>
+    <div class="middle-nav ">
+      <ul class="d-flex flex flex-row list-unstyled justify-content-between align-items-center pt-3">
+        <li><a class="text-light mx-3" href="#">HOME</a></li>
+        <li><a class="text-light mx-3" href="#">COLLECTION</a></li>
+        <li><a class="text-light mx-3" href="#">Search</a></li>
       </ul>
     </div>
+    <div class="right-hand d-flex flex-row align-items-center px-2">
+      <a href="#"><img src="ressources/user.png" class="user" alt="user"> </a>
+      <button class="rounded border-0 p-1 text-white bg-success">SUBSCRIBE</button>
+    </div>
   </nav>
-  <div class="head-presentation">
-    <div class="title">
-      <h1>ZATTIX</h1>
-      <p>Buying and selling couldn't be simpler than this </p>
+  <div class="head-presentation d flex flex-column justify-content-between">
+    <div class="title text-center">
+      <h1 class="">welcome kaze</h1>
+      <p class="text-information"> PURCHASE SOMETHING  BEFORE GOING HOME.  </p>
     </div>
-    <div class="menu">
-      
-      <div class="nav-list">
-          <a href="#">all departments</a>
-      </div>
-      <div class="nav-list">
-          <a href="#">what do you search for</a>
-      </div>
-      <div class="nav-list">
-          <a href="#">san Francisco</a>
-      </div>
-      <div class="search">
-        <button type="button"></button>
-      </div>
-    </div>
-
   </div>
   <main>
+    <div class="menu row d-flex flex-row justify-content-between mx-auto p-4">      
+      <div class="nav-list ">
+          <a href="#">all foods</a>
+      </div>
+      <div class="nav-list col-lg-3 px-2">
+          <a href="#">what do need?</a>
+          <input type="text" placeholder="write the name of article">
+      </div>
+      <div class="nav-list col-lg-3 px-2">
+        <a href="#">Online order</a>
+      </div>
+
+      <div class="search col-lg-3">
+        <button type="button">Search</button>
+      </div>
+    </div>
+    <section class="pub row mx-3">
+      <div class="articles d-flex  flex-column col-lg-3 col-sm-6 mx-auto pt-5 w-75">
+        <img src="ressources/meet-shop.jpeg" class="mx-3" alt="inyama">
+        <p class="pl-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo fuga </p>
+        <h5 class="position absolute text-warning"><span>10$</span> 6,99 $</h5>
+      </div>
+      <div class="articles d-flex  flex-column col-lg-3 col-sm-6 mx-auto pt-5 w-75">
+        <img src="ressources/pizza.jpeg" class="mx-3" alt="inyama">
+        <p class="pl-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo fuga excepturi doloribus consequatur </p>
+        <h5 class="position absolute text-warning"><span>10$</span> 6,99 $</h5>
+      </div>
+      <div class="articles d-flex  flex-column col-lg-3 col-sm-6 mx-auto pt-5 w-75">
+        <img src="ressources/biscuits.jpeg" class="mx-3" alt="inyama">
+        <p class="pl-3">Lorem ipsum dolor, sit amet imilique quam dolore! odit amet?</p>
+          <h5 class="position absolute text-warning"><span>10$</span> 6,99 $</h5>
+      </div>
+      <div class="articles d-flex  flex-column col-lg-3 col-sm-6 mx-auto pt-5 w-75">
+        <img src="ressources/cake.jpeg" class="mx-3" alt="inyama">
+        <p class="pl-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo odit amet?</p>
+        <h5 class="position absolute text-warning"><span>10$</span> 6,99 $</h5>
+      </div>
+    </section>
+    <section class="payment mx auto">
+      <h2 class="text-center pt-4">payment</h2>
+     
+      <div class="row my-3 w-75 mx-auto">
+        <div class=" mobile-m col-lg-4 col-12 d-flex flex-column">
+          <img src="ressources/ecocash.jpeg" alt="eco">
+          <caption>no longer have a money problem no matter where you are. your phone your wallet</caption>
+        </div>
+        <div class=" mobile-m col-lg-4 col-12 d-flex flex-column">
+          <img src="ressources/lumicsh.jpeg" alt="eco">
+          <caption>no longer have a money problem no matter where you are. your phone your wallet</caption>
+        </div>
+        <div class=" mobile-m col-lg-4 col-12 d-flex flex-column">
+          <img src="ressources/visa.jpeg" alt="eco">
+          <caption>no longer have a money problem no matter where you are. your phone your wallet</caption>
+        </div>
+      </div>
+
+    </section>
 
   </main>
   <footer>
-
+    <div class="socials d-flex flex-row justify-content-between align-items-center">
+      <div class="logof d-none d-lg-flex">
+        <h2>kaze</h2>
+      </div>
+      <div class="middle-footer d-flex flex-row justify-content-between mx">
+        <h5 class="text-success">Make order every time you wish</h>
+        <img src="ressources/hambourger.jpeg" alt="hm">
+        <img src="ressources/nutella.jpeg" alt="hm">
+        <img src="ressources/pizza.jpeg" alt="hm">
+      </div>
+      <div class="socials-icons m-4">
+        <a href="#"><img src="ressources/facebook.png" alt="fb"></a>
+        <a href="#"><img src="ressources//twitter.svg" alt="tw"></a>
+        <a href="#"><img src="ressources//insta.png" alt="ins"></a>
+        <a href="#"><img src="ressources//linkedin.png" alt="in"></a>
+      </div>
+    </div>
   </footer>    
 </body>
 </html>
