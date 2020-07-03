@@ -1,7 +1,3 @@
-*{
-  /* background-color: burlywood; */
-}
-
 .left-nav img {
   width: 50px;
   height: 40px;
@@ -26,8 +22,8 @@ nav {
 }
 
 main {
-  background-color: rgb(115, 131, 88);
-  color: #fff;
+  background: linear-gradient(180deg, rgba(177, 80, 85, 0.7) 0%, rgba(0, 0, 0, 0.9) 100%), url(../ressources/pickup.jpg);
+color: #fff;
 }
 
 .nav-list a {
@@ -126,18 +122,35 @@ footer {
   height: 300px;
 }
 
+.middle-footer img {
+  margin: 0 5px;
+}
+
 .w-90 {
   width: 90%;
 }
 
 .bg-s {
-  background: linear-gradient(to right, rgb(170, 143, 143)90%, rgb(135, 184, 165) 50%, rgb(65, 134, 146) 75%, rgb(204, 156, 156) 75%);
+  background: linear-gradient(180deg, rgba(177, 80, 85, 0.7) 0%, rgba(0, 0, 0, 0.9) 100%), url(../ressources/pickup.jpg);
 }
 
 @media only screen and (max-width: 768px) {
-  .left-nav,
+  .left-nav img,
   .middle-footer img,
   .right-hand button {
     display: none;
+  }
+
+  .griz img {
+    height: 180px;
+  }
+
+  .left-nav h3 {
+    font-size: medium;
+    padding-top: 10px;
+  }
+
+  .title h1 {
+    font-size: 4rem;
   }
 }
