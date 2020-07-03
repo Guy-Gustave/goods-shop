@@ -15,7 +15,6 @@ Capstone project solo, html project built at the end of the first of  Main Techn
     <br />
     ·
      <a href="https://raw.githack.com/Guy-Gustave/goods-shop/feature-branch/index.html ">Live Demo</a>
-     <a href="https://www.loom.com/share/ff57e10337904b2eb57a25038dc8d7e7">description of the project</a>
     ·    
   </p>
 </p>
