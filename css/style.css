@@ -2,7 +2,7 @@
   /* background-color: burlywood; */
 }
 
-.left-nav img{
+.left-nav img {
   width: 50px;
   height: 40px;
   filter: opacity(80%);
@@ -23,7 +23,6 @@ nav {
 
 .head-presentation {
   background: black;
-  /* background-image: url('../ressources/pickup.jpg'); */
 }
 
 main {
@@ -31,7 +30,7 @@ main {
   color: #fff;
 }
 
-.nav-list a{
+.nav-list a {
   color: #fff;
   text-decoration: none;
 }
@@ -74,14 +73,14 @@ main {
 
 @-webkit-keyframes glow {
   from {
-   color: #fff;
- text-shadow: 0 0 10px #13c7e7, 0 0 20px #00fff2, 0 0 30px #c714a0, 0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2, 0 0 90px #00fff2;
-}
+    color: #fff;
+    text-shadow: 0 0 10px #13c7e7, 0 0 20px #00fff2, 0 0 30px #c714a0, 0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2, 0 0 90px #00fff2;
+  }
 
-to {
-  color: rgb(236, 148, 148);
- text-shadow: 0 0 20px #10e2d8, 0 0 30px #00fff2, 0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2, 0 0 80px #00fff2, 0 1 90px #00fff2;
-}
+  to {
+    color: rgb(236, 148, 148);
+    text-shadow: 0 0 20px #10e2d8, 0 0 30px #00fff2, 0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2, 0 0 80px #00fff2, 0 1 90px #00fff2;
+  }
 }
 
 .mobile-money {
@@ -94,12 +93,14 @@ footer {
   height: 80px;
 }
 
-footer h2 {
-  font-size: 4rem;
-  text-align: center;
-  font-weight: bold;
-  color: #10e2d8;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+.middle-footer img {
+  width: 50px;
+  height: 30px;
+}
+
+.img-shop img {
+  height: 250px;
+  max-width: 400px;
 }
 
 .socials a img {
@@ -109,23 +110,13 @@ footer h2 {
   filter: invert(100%);
 }
 
-.middle-footer img {
-  width: 50px;
-  height: 30px;
-}
-
 .img-shop {
   max-width: 80%;
 }
 
-.img-shop img {
-  height: 250px;
-  max-width: 400px;
-}
-
 .img-shop img:hover {
   width: 500px;
-  background-color: red; 
+  background-color: red;
   background-image: linear-gradient(red, yellow);
   box-shadow: 15px 10px rgba(173, 142, 142, 0.75);
 }
@@ -143,7 +134,7 @@ footer h2 {
   background: linear-gradient(to right, rgb(170, 143, 143)90%, rgb(135, 184, 165) 50%, rgb(65, 134, 146) 75%, rgb(204, 156, 156) 75%);
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px) {
   .left-nav,
   .middle-footer img,
   .right-hand button {
