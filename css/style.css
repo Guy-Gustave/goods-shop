@@ -85,12 +85,12 @@ main {
 }
 
 footer {
-  background-color: rgb(22, 21, 21);
+  background-color: rgb(10, 9, 9);
   height: 80px;
 }
 
 .img-shop {
-  max-width: 80%;
+  max-width: 82%;
 }
 
 .middle-footer img {
@@ -149,5 +149,9 @@ footer {
 
   .title h1 {
     font-size: 4rem;
+  }
+
+  .title p {
+    font-size: 24px;
   }
 }
