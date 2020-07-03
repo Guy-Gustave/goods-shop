@@ -89,9 +89,14 @@ footer {
   height: 80px;
 }
 
+.img-shop {
+  max-width: 80%;
+}
+
 .middle-footer img {
   width: 50px;
   height: 30px;
+  margin: 0 5px;
 }
 
 .img-shop img {
@@ -99,19 +104,11 @@ footer {
   max-width: 400px;
 }
 
-.middle-footer img {
-  margin: 0 5px;
-}
-
 .socials a img {
   width: 20px;
   height: 20px;
   margin: 0 5px;
   filter: invert(100%);
-}
-
-.img-shop {
-  max-width: 80%;
 }
 
 .img-shop img:hover {
