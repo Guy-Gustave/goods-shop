@@ -34,7 +34,7 @@ main {
 .nav-list button {
   width: 200px;
   height: 50px;
-  background: linear-gradient(to left, rgb(226, 222, 222) 75%, rgb(180, 176, 176) 50%, rgb(233, 168, 168) 75%, rgb(238, 203, 203) 75%);
+  background: linear-gradient(to left, rgb(138, 102, 102) 25%, rgb(180, 176, 176) 50%, rgb(233, 168, 168) 75%, rgb(238, 203, 203) 75%);
   border-radius: 10px;
 }
 
