@@ -18,10 +18,10 @@
 <body>
   <nav class="container-fluid d-flex justify-content-between align-content-center w-100" >  
     <div class=" left-nav d-flex flex-row text-white text-bolder m-2 ">         
-      <img src="ressources/shop.jpg">
+      <img src="ressources/shop.jpg" alt="shop">
       <h3 class="name mx-3"> KAZE </h3>
     </div>
-    <div class="middle-nav d-none d-lg-flex">
+    <div class="middle-nav d-md-flex d-lg-flex">
       <ul class="d-flex flex flex-row list-unstyled justify-content-between align-items-center pt-3">
         <li><a class="text-light mx-3" href="#">HOME</a></li>
         <li><a class="text-light mx-3" href="#">COLLECTION</a></li>
@@ -41,20 +41,54 @@
   </div>
   <main>
     <h2 class="text-center text-warning p-3">click on second button to search for all articles</h2>
-    <div class="menu row d-flex flex-row justify-content-between mx-auto p-4">      
-      <div class="nav-list ">
-          <a href="#"><button>all foods</button></a>
-      </div>
-      <div class="nav-list ">
-          <a href="searched.html"><button>Search for Articles</button></a>
-      </div>
-      <div class="nav-list ">
-        <a href="#"><button>Online order</button></a>
-      </div>
-
-      <div class="search nav-list ">
-        <button type="button">Search</button>
-      </div>
+    <div class="form-group d-flex flex-row flex-wrap justify-content-around mx-auto">
+      <form>
+        <label>goods'Name :</label>
+        <input type="text" placeholder="enter the name " />
+      </form>
+      <form>
+        <label>kind of goods :</label>
+        <select class="select" name="kind">
+          <option value="all">-</option>
+          <option value="vegetables">vegetables</option>
+          <option value="cerealis">cerealis</option>
+          <option value="meat">TMeat</option>
+          <option value="fruits">fruits</option>
+          <option value="bread">bread</option>
+        </select>
+      </form>
+      <form>
+        <label>meat :</label>
+        <select class="select" name="animal">
+          <option value="all">-</option>
+          <option value="volaille">volailles</option>
+          <option value="vache">Vache</option>
+          <option value="chevre">chevre</option>
+        </select>
+      </form>
+      <form>
+        <label> vegetables :</label>
+        <select class="select" name="colors">
+          <option value="all">-</option>
+          <option value="Cucumba">Cucumba</option>
+          <option value="Cabbage">Cabbage</option>
+          <option value="onion">Onion</option>
+          <option value="Asparagus">Asparagus</option>
+          <option value="tomatoes">tomatoes</option>
+          <option value="carots">Carrot</option>
+          <option value="lettuce">lettuce</option>
+        </select>
+      </form>
+      <form>
+        <label>Frits :</label>
+        <select class="select" name="Fruits">
+          <option value="all">-</option>
+          <option value="avocado">Avocado</option>
+          <option value="ananas">Ananas</option>
+          <option value="Passion">Passion-fruit</option>
+          <option value="banana">banana</option>
+        </select>
+      </form>
     </div>
     <section class="pub row mx-3">
       <div class="articles d-flex  flex-column col-lg-3 col-sm-6 mx-auto pt-5 w-75">
@@ -84,15 +118,15 @@
       <div class="row my-3 w-75 mx-auto">
         <div class=" mobile-m col-lg-4 col-12 d-flex flex-column">
           <img src="ressources/ecocash.jpeg" alt="eco">
-          <caption>no longer have a money problem no matter where you are. your phone your wallet</caption>
+          <p>no longer have a money problem no matter where you are. your phone your wallet</p>
         </div>
         <div class=" mobile-m col-lg-4 col-12 d-flex flex-column">
           <img src="ressources/lumicsh.jpeg" alt="eco">
-          <caption>no longer have a money problem no matter where you are. your phone your wallet</caption>
+          <p>no longer have a money problem no matter where you are. your phone your wallet</p>
         </div>
         <div class=" mobile-m col-lg-4 col-12 d-flex flex-column">
           <img src="ressources/visa.jpeg" alt="eco">
-          <caption>no longer have a money problem no matter where you are. your phone your wallet</caption>
+          <p>no longer have a money problem no matter where you are. your phone your wallet</p>
         </div>
       </div>
 
@@ -104,8 +138,8 @@
       <div class="logof d-none d-lg-flex">
         <h2>kaze</h2>
       </div>
-      <div class="middle-footer d-flex flex-row justify-content-between mx">
-        <h5 class="text-success">Make order every time you wish</h>
+      <div class="middle-footer d-flex flex-row justify-content-between mx-auto ">
+        <h5> <a href="#" class="text-success">Make order every time you wish</a></h5>
         <img src="ressources/hambourger.jpeg" alt="hm">
         <img src="ressources/nutella.jpeg" alt="hm">
         <img src="ressources/pizza.jpeg" alt="hm">

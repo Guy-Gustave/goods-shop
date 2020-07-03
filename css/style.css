@@ -142,3 +142,11 @@ footer h2 {
 .bg-s {
   background: linear-gradient(to right, rgb(170, 143, 143)90%, rgb(135, 184, 165) 50%, rgb(65, 134, 146) 75%, rgb(204, 156, 156) 75%);
 }
+
+@media only screen and (max-width: 768px){
+  .left-nav,
+  .middle-footer img,
+  .right-hand button {
+    display: none;
+  }
+}
