@@ -39,6 +39,12 @@ main {
   color: #fff;
 }
 
+footer a {
+  text-decoration: none;
+  color: #777;
+  font-size: small;
+}
+
 .nav-list a {
   color: #fff;
   text-decoration: none;
@@ -90,7 +96,6 @@ main {
     color: rgb(236, 148, 148);
     text-shadow: 0 0 20px #10e2d8, 0 0 30px #00fff2, 0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2, 0 0 80px #00fff2, 0 1 90px #00fff2;
   }
-  width: 300px;
 }
 
 .mobile-money {
@@ -99,14 +104,6 @@ main {
 
 footer {
   background-color: rgb(231, 210, 210);
-  
-}
-
-footer a {
-  text-decoration: none;
-  color: #777;
-  font-size: small
-  ;
 }
 
 .img-shop {
@@ -147,13 +144,12 @@ footer a {
   width: 90%;
 }
 
-
 .sidenav {
   margin-top: 5rem;
   width: 160px;
   z-index: 1;
   left: 0;
-  background-color: transparent;
+  background-color: white transparent;
   overflow-x: hidden;
   padding-top: 20px;
 }
@@ -177,7 +173,6 @@ footer a {
 
 @media only screen and (max-width: 768px) {
   .left-nav img,
-  .menu-3,
   .right-hand button {
     display: none;
   }
@@ -185,7 +180,6 @@ footer a {
   .middle-footer a {
     display: inline-flex;
     justify-content: space-between;
-
   }
 
   .griz img {
