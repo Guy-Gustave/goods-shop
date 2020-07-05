@@ -11,6 +11,10 @@
     <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <!-- scripts -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <!-- style.css -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/reset.css">
@@ -25,7 +29,7 @@
       <ul class="d-flex flex flex-row list-unstyled justify-content-between align-items-center pt-3">
         <li><a class="text-light mx-3" href="#">HOME</a></li>
         <li><a class="text-light mx-3" href="#">COLLECTION</a></li>
-        <li><a class="text-light mx-3" href="searched.html">Search</a></li>
+        <li><a class="text-light mx-3" href="searched.html">SEARCH</a></li>
       </ul>
     </div>
     <div class="right-hand d-flex flex-row align-items-center px-2">
@@ -79,17 +83,49 @@
           <option value="lettuce">lettuce</option>
         </select>
       </form>
-      <form>
-        <label>Frits :</label>
-        <select class="select" name="Fruits">
-          <option value="all">-</option>
-          <option value="avocado">Avocado</option>
-          <option value="ananas">Ananas</option>
-          <option value="Passion">Passion-fruit</option>
-          <option value="banana">banana</option>
-        </select>
-      </form>
+
+      <a href="searched.html" class="btn btn-light text-dark" role="button">search here</a>
     </div>
+    <section class="pub row mx-3">
+      <div class="articles d-flex  flex-column col-lg-3 col-sm-6 mx-auto pt-5 w-75">
+        <img src="ressources/meet-shop.jpeg" class="mx-3" alt="inyama">
+        <p class="pl-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo fuga </p>
+        <h5 class="position absolute text-warning"><span>10$</span> 6,99 $</h5>
+      </div>
+      <div class="articles d-flex  flex-column col-lg-3 col-sm-6 mx-auto pt-5 w-75">
+        <img src="ressources/pizza.jpeg" class="mx-3" alt="inyama">
+        <p class="pl-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo fuga excepturi doloribus consequatur </p>
+        <h5 class="position absolute text-warning"><span>10$</span> 6,99 $</h5>
+      </div>
+      <div class="articles d-flex  flex-column col-lg-3 col-sm-6 mx-auto pt-5 w-75">
+        <img src="ressources/biscuits.jpeg" class="mx-3" alt="inyama">
+        <p class="pl-3">Lorem ipsum dolor, sit amet imilique quam dolore! odit amet?</p>
+          <h5 class="position absolute text-warning"><span>10$</span> 6,99 $</h5>
+      </div>
+      <div class="articles d-flex  flex-column col-lg-3 col-sm-6 mx-auto pt-5 w-75">
+        <img src="ressources/cake.jpeg" class="mx-3" alt="inyama">
+        <p class="pl-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo odit amet?</p>
+        <h5 class="position absolute text-warning"><span>10$</span> 6,99 $</h5>
+      </div>
+    </section>
+    <section class="pub row mx-3">
+      <div class="articles d-flex  flex-column col-lg-4 col-sm-6 mx-auto pt-5 w-75">
+        <img src="ressources/meet-shop.jpeg" class="mx-3" alt="inyama">
+        <p class="pl-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo fuga </p>
+        <h5 class="position absolute text-warning"><span>10$</span> 6,99 $</h5>
+      </div>
+      
+      <div class="articles d-flex  flex-column col-lg-4 col-sm-6 mx-auto pt-5 w-75">
+        <img src="ressources/biscuits.jpeg" class="mx-3" alt="inyama">
+        <p class="pl-3">Lorem ipsum dolor, sit amet imilique quam dolore! odit amet?</p>
+          <h5 class="position absolute text-warning"><span>10$</span> 6,99 $</h5>
+      </div>
+      <div class="articles d-flex  flex-column col-lg-4 col-sm-6 mx-auto pt-5 w-75">
+        <img src="ressources/cake.jpeg" class="mx-3" alt="inyama">
+        <p class="pl-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo odit amet?</p>
+        <h5 class="position absolute text-warning"><span>10$</span> 6,99 $</h5>
+      </div>
+    </section>
     <section class="pub row mx-3">
       <div class="articles d-flex  flex-column col-lg-3 col-sm-6 mx-auto pt-5 w-75">
         <img src="ressources/meet-shop.jpeg" class="mx-3" alt="inyama">
@@ -134,22 +170,60 @@
 
   </main>
   <footer>
-    <div class="socials d-flex flex-row justify-content-between align-items-center">
-      <div class="logof d-none d-lg-flex">
-        <h2>kaze</h2>
+    <div class="socials d-flex flex-column ">
+      <div class="foot1 d-flex justify-content-between mx-3">
+        <div class="logof d-none d-lg-flex">
+          <h2>kaze</h2>
+        </div>
+        <div class="middle-footer d-flex flex-row justify-content-between mt-2 ">
+           <a href="#" class="text-success px-2">
+             <h5 class="small">Make order every time you wish</h5>
+          <img src="ressources/hambourger.jpeg" alt="hm">
+          <img src="ressources/nutella.jpeg" alt="hm">
+          <img src="ressources/pizza.jpeg" alt="hm"></a>
+        </div>    
       </div>
-      <div class="middle-footer d-flex flex-row justify-content-between mx-auto ">
-        <h5> <a href="#" class="text-success px-2">Make order every time you wish</a></h5>
-        <img src="ressources/hambourger.jpeg" alt="hm">
-        <img src="ressources/nutella.jpeg" alt="hm">
-        <img src="ressources/pizza.jpeg" alt="hm">
+      
+      <div class=" d-flex justify-content-around foot-2 m-4 ">
+        <div class="menu-1 d-flex  flex-column mx-auto text-unstyled">
+          <h6 class="foot-head small">NEWS</h6>
+          <div class="liste text-secondary px-2"><a href="">HOME Page</a></div>
+          <div class="liste text-secondary px-2"><a href="">Our product</a></div>
+          <div class="liste text-secondary px-2"><a href="">about us</a></div>
+          <div class="liste text-secondary px-2"><a href="">promotion</a></div>
+          <div class="liste text-secondary px-2"><a href="">our features</a></div>     
+        </div>
+
+        <div class="menu-2 d-flex  flex-column mx-auto text-unstyled">
+          <h6 class="foot-head ">products</h6>
+          <div class="liste text-secondary px-2"><a href="">Vegetables</a></div>
+          <div class="liste text-secondary px-2"><a href="">fruits</a></div>
+          <div class="liste text-secondary px-2"><a href="">meets</a></div>
+          <div class="liste text-secondary px-2"><a href="">breads</a></div>
+          <div class="liste text-secondary px-2"><a href="">cerealis</a></div>
+          <div class="liste text-secondary px-2"><a href="">cake</a></div>
+        </div>
+        <div class="menu-3 d-none d-lg-flex  flex-column mx-auto">
+          <h5 class="small">suggestion? or issues?</h5>
+          <div class="form-group small">
+            <label for="textarea">write in comments here below</label>
+            <textarea class="form-control" id="textarea" rows="4" ></textarea>
+          </div>
+        </div>
+        <div class="socials-icons  d-flex  flex-column">
+          <div class="">
+            <h6>join us here</h6>
+          </div>
+          <div class="">
+            <a href="#"><img src="ressources/fb.svg" alt="fb"></a>
+            <a href="#"><img src="ressources//twitter.svg" alt="tw"></a>
+            <a href="#"><img src="ressources//insta.png" alt="ins"></a>
+            <a href="#"><img src="ressources//linkedin.png" alt="in"></a>
+          </div>
+        </div>
       </div>
-      <div class="socials-icons m-4">
-        <a href="#"><img src="ressources/facebook.png" alt="fb"></a>
-        <a href="#"><img src="ressources//twitter.svg" alt="tw"></a>
-        <a href="#"><img src="ressources//insta.png" alt="ins"></a>
-        <a href="#"><img src="ressources//linkedin.png" alt="in"></a>
-      </div>
+      <p class="text-secondary text-center">we are here to serve you. your satisfaction is our proud</p>
+            
     </div>
   </footer>    
 </body>

@@ -11,6 +11,10 @@
   <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+  <!-- scripts -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <!-- style.css -->
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/reset.css">
@@ -18,17 +22,28 @@
 <body>
   <nav class="container-fluid d-flex justify-content-between align-content-center w-100" >  
     <div class=" left-nav d-none d-lg-flex flex-row text-white text-bolder m-2 ">         
-      <img src="ressources/shop.jpg">
+      <img src="ressources/shop.jpg" alt="sh">
       <h3 class="name mx-3"> KAZE </h3>
     </div>
     <div class="middle-nav d-lg-flex">
       <ul class="d-flex flex flex-row list-unstyled justify-content-between align-items-center pt-3">
-        <li><a class="text-light mx-3" href="#">HOME</a></li>
+        <li><a class="text-light mx-3" href="index.html">HOME</a></li>
         <li><a class="text-light mx-3" href="#">COLLECTION</a></li>
-        <li><a class="text-light mx-3" href="#">SEARCH</a></li>
+        <li><a class="text-light mx-3" href="searched.html">SEARCH</a></li>
       </ul>
     </div>
+
     <div class="right-hand d-flex flex-row align-items-center px-2">
+    
+      <div class="dropdown">
+        <button class="btn btn-success dropdown-toggle" type="button" data-toggle="dropdown" >Language</button>
+        <div class="dropdown-menu" >
+          <a class="dropdown-item" href="#">English</a>
+          <a class="dropdown-item" href="#">French</a>
+          <a class="dropdown-item" href="#">swahili</a>
+        </div>
+      </div>
+    
       <a href="#"><img src="ressources/user.png" class="user" alt="user"> </a>
       <button class="rounded border-0 p-1 text-white bg-success">SUBSCRIBE</button>
     </div>
@@ -40,15 +55,46 @@
         <p class="text-ssucces"> welcome to the market of your taste  </p>
       </div>            
     </div>
-    <section class=" our-shop col-12">
-      <div class="presentation">
-        <h2 class="text-secondary text-light text-center "> RESULT OF SEARCH </h2>
-        <div class="img-shop row mx-auto w-90">
-          <img class="col-lg-5 col-10 p-3" src="ressources/cake.jpeg" alt="bak">
-          <img class="col-lg-5 col-10 p-3" src="ressources/hambourger.jpeg" alt="bak">
+    <h2 class="text-center text-warning p-3">search for all articles </h2>
+    <div class="form-group d-flex flex-row flex-wrap justify-content-around mx-auto">
+      <form>
+        <label>goods'Name :</label>
+        <input type="text" placeholder="enter the name " />
+      </form>
+      <form>
+        <label>kind of goods :</label>
+        <select class="select" name="kind">
+          <option value="all">-</option>
+          <option value="vegetables">vegetables</option>
+          <option value="cerealis">cerealis</option>
+          <option value="meat">TMeat</option>
+          <option value="fruits">fruits</option>
+          <option value="bread">bread</option>
+        </select>
+      </form>
+      <a href="searched.html" class="btn btn-light text-dark" role="button">search here</a>
+    </div>
+    <div class="row">
+      <aside class="left-sidebar d-block w-100 col-3">
+        <div class="sidenav">
+          <h5 class="pl-4">products</h5>
+          <a href="#about">Services</a>
+          <a href="#services">cake</a>
+          <a href="#clients">Vegetables</a>
+          <a href="#contact">cerealis</a>
+          <a href="#contact">Fruits</a>
         </div>
-      </div>
-    </section>
+      </aside>
+      <section class=" our-shop col-9">
+        <div class="presentation">
+          <h2 class="text-secondary text-light text-center "> RESULT OF SEARCH </h2>
+          <div class="img-shop row mx-auto w-90">
+            <img class="col-lg-5 col-10 p-3" src="ressources/cake.jpeg" alt="bak">
+            <img class="col-lg-5 col-10 p-3" src="ressources/hambourger.jpeg" alt="bak">
+          </div>
+        </div>
+      </section>
+    </div>
     <section class="favourite">
       <div class="artics text-center py-4">
         <h2>which article do you like?</h2>
@@ -57,34 +103,34 @@
    
       <div class="row w-90 mx-auto">
         <div class="col-lg-4 col-6 d-flex griz flex-column">
-          <img src="ressources/cake.jpeg">
-          <caption>the food of your choice on cheap price</caption>
+          <img src="ressources/cake.jpeg" alt="ck">
+          <p>the food of your choice on cheap price</p>
           <h5 class="position absolute text-warning">
           <span>10$</span> 6,99 $</h5>
         </div>
         <div class="col-lg-4 col-6 d-flex griz flex-column">
-          <img src="ressources/fruits.jpeg">
-          <caption>the food of your choice on cheap price</caption>
+          <img src="ressources/fruits.jpeg" alt="fr">
+          <p>the food of your choice on cheap price</p>
           <h5 class="position absolute text-warning"><span>10$</span> 6,99 $</h5>
         </div>
         <div class="col-lg-4 col-6 d-flex griz flex-column">
-          <img src="ressources/pizza.jpeg">
-          <caption>the food of your choice on cheap price</caption>
+          <img src="ressources/pizza.jpeg" alt="pz">
+          <p>the food of your choice on cheap price</p>
           <h5 class="position absolute text-warning"><span>10$</span> 6,99 $</h5>
         </div>
         <div class="col-lg-4 col-6 d-flex griz flex-column">
-          <img src="ressources/vegetables.jpeg">
-          <caption>the food of your choice on cheap price</caption>
+          <img src="ressources/vegetables.jpeg" alt="vg">
+          <p>the food of your choice on cheap price</p>
           <h5 class="position absolute text-warning"><span>10$</span> 6,99 $</h5>
         </div>
         <div class="col-lg-4 col-6 d-flex griz flex-column">
-          <img src="ressources/nutella.jpeg">
-          <caption>the food of your choice on cheap price</caption>
+          <img src="ressources/nutella.jpeg" alt="nt">
+          <p>the food of your choice on cheap price</p>
           <h5 class="position absolute text-warning"><span>10$</span> 6,99 $</h5>
         </div>
         <div class="col-lg-4 col-6 d-flex griz flex-column">
-          <img src="ressources/biscuits.jpeg">
-          <caption>the food of your choice on cheap price</caption>
+          <img src="ressources/biscuits.jpeg" alt="bs">
+          <p>the food of your choice on cheap price</p>
           <h5 class="position absolute text-warning"><span>10$</span> 6,99 $</h5>
         </div>
       </div>
@@ -92,23 +138,61 @@
 
   </main>
   <footer>
-    <div class="socials d-flex flex-row justify-content-between align-items-center pt-3 ">
-      <div class="logof d-none d-lg-flex px-2">
-        <h2 >kaze</h2>
+    <div class="socials d-flex flex-column ">
+      <div class="foot1 d-flex justify-content-between mx-3">
+        <div class="logof d-none d-lg-flex">
+          <h2>kaze</h2>
+        </div>
+        <div class="middle-footer d-flex flex-row justify-content-between mt-2 ">
+           <a href="#" class="text-success px-2 d-flex align-center pt-2">
+             <h5 class="small ">Make order every time you wish</h5>
+          <img src="ressources/hambourger.jpeg" alt="hm">
+          <img src="ressources/nutella.jpeg" alt="hm">
+          <img src="ressources/pizza.jpeg" alt="hm"></a>
+        </div>    
       </div>
-      <div class="middle-footer d-flex flex-row justify-content-between mx">
-        <h5 class="text-success mx-3">Make order every time you wish</h>
-        <img src="ressources/hambourger.jpeg" alt="hm">
-        <img src="ressources/nutella.jpeg" alt="hm">
-        <img src="ressources/pizza.jpeg" alt="hm">
+      
+      <div class=" d-flex justify-content-around foot-2 m-4 ">
+        <div class="menu-1 d-flex  flex-column mx-auto text-unstyled">
+          <h6 class="foot-head small text-secondary">NEWS</h6>
+          <div class="liste text-secondary px-2"><a href="">HOME Page</a></div>
+          <div class="liste text-secondary px-2"><a href="">Our product</a></div>
+          <div class="liste text-secondary px-2"><a href="">about us</a></div>
+          <div class="liste text-secondary px-2"><a href="">promotion</a></div>
+          <div class="liste text-secondary px-2"><a href="">our features</a></div>     
+        </div>
+
+        <div class="menu-2 d-flex  flex-column mx-auto text-unstyled">
+          <h6 class="foot-head text-secondary ">products</h6>
+          <div class="liste text-secondary px-2"><a href="">Vegetables</a></div>
+          <div class="liste text-secondary px-2"><a href="">fruits</a></div>
+          <div class="liste text-secondary px-2"><a href="">meets</a></div>
+          <div class="liste text-secondary px-2"><a href="">breads</a></div>
+          <div class="liste text-secondary px-2"><a href="">cerealis</a></div>
+          <div class="liste text-secondary px-2"><a href="">cake</a></div>
+        </div>
+        <div class="menu-3 d-flex  flex-column mx-auto">
+          <h5 class="small text-secondary">suggestion? or issues?</h5>
+          <div class="form-group small">
+            <label for="textarea">write in comments here below</label>
+            <textarea class="form-control" id="textarea" rows="4"></textarea>
+          </div>
+        </div>
+        <div class="socials-icons  d-flex  flex-column">
+          <div class="">
+            <h6>join us here</h6>
+          </div>
+          <div class="">
+            <a href="#"><img src="ressources/fb.svg" alt="fb"></a>
+            <a href="#"><img src="ressources//twitter.svg" alt="tw"></a>
+            <a href="#"><img src="ressources//insta.png" alt="ins"></a>
+            <a href="#"><img src="ressources//linkedin.png" alt="in"></a>
+          </div>
+        </div>
       </div>
-      <div class="socials-icons mx-2 ">
-        <a href="#"><img src="ressources/facebook.png" alt="fb"></a>
-        <a href="#"><img src="ressources//twitter.svg" class="" alt="tw"></a>
-        <a href="#"><img src="ressources//insta.png" alt="ins"></a>
-        <a href="#"><img src="ressources//linkedin.png" alt="in"></a>
-      </div>
+      <p class="text-secondary text-center">we are here to serve you. your satisfaction is our proud</p>
+            
     </div>
-  </footer>   
+  </footer>    
 </body>
 </html>
