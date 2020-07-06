@@ -49,7 +49,7 @@ footer a {
   text-decoration: none;
 }
 
-.articles p{
+.articles p {
   color: #383838;
 }
 
@@ -181,7 +181,7 @@ form label {
 }
 
 .bg-s {
-  background: #888888,
+  background: #888,
 }
 
 @media only screen and (max-width: 768px) {
