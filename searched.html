@@ -49,46 +49,102 @@
   <main class="bg-s">
     <div class="head-presentation">
       <div class="title text-center">
-        <h1 class="">kaze, solution of your needs</h1>
+        <h1 class="">kaze, the solution </h1>
         <p class="text-light"> welcome to the market of your taste  </p>
       </div>            
-    </div>
-    <h2 class="text-center text-secondary p-3">search for all articles </h2>
-    <div class="form-group d-flex flex-row flex-wrap justify-content-around mx-auto">
-      <form>
-        <label>goods'Name :</label>
-        <input type="text" placeholder="enter the name " />
-      </form>
-      <form>
-        <label>kind of goods :</label>
-        <select class="select" name="kind">
-          <option value="all">-</option>
-          <option value="vegetables">vegetables</option>
-          <option value="cerealis">cerealis</option>
-          <option value="meat">TMeat</option>
-          <option value="fruits">fruits</option>
-          <option value="bread">bread</option>
-        </select>
-      </form>
-      <a href="searched.html" class="btn btn-light text-dark bg-secondary" role="button">search here</a>
+    
+      <h2 class="text-center text-light p-3">search for all articles </h2>
+      <div class="form-group d-flex flex-row flex-wrap justify-content-center mx-auto">
+        <form>
+          <label>goods'Name :</label>
+          <input type="text" placeholder="enter the name " />
+        </form>
+        <form class="px-3">
+          <label>kind of goods :</label>
+          <select class="select" name="kind">
+            <option value="all">-</option>
+            <option value="vegetables">vegetables</option>
+            <option value="cerealis">cerealis</option>
+            <option value="meat">TMeat</option>
+            <option value="fruits">fruits</option>
+            <option value="bread">bread</option>
+          </select>
+        </form>
+        <a href="searched.html" class="btn btn-light text-dark bg-secondary px-2 mb-2 pb-2" role="button">search here</a>
+      </div>
     </div>
     <div class="row">
-      <aside class="left-sidebar d-none d-lg-block w-100 col-3 ">
+      <aside class="left-sidebar d-none d-lg-block w-100 col-3 m-2 mt-4 ">
         <div class="sidenav">
-          <h2 class="pl-4">products</h2>
-          <a href="#about">Services</a>
-          <a href="#services">cake</a>
-          <a href="#clients">Vegetables</a>
-          <a href="#contact">cerealis</a>
-          <a href="#contact">Fruits</a>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+            <label class="form-check-label" for="inlineCheckbox1">order</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+            <label class="form-check-label" for="inlineCheckbox2">reserve</label>
+          </div>          
+        </div>
+        <div class="side">
+          <h6 class="border-bottom pt-2 text-dark ">type</h6>
+          <div class="form-check form-check-block">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox" value="option1">
+            <label class="form-check-label small" for="inlineCheckbox1">order</label>
+          </div>
+          <div class="form-check form-check-block">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option2">
+            <label class="form-check-label small" for="inlineCheckbox2">reserve</label>
+          </div>
+          <div class="form-check form-check-block">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox5" value="option2">
+            <label class="form-check-label small" for="inlineCheckbox2">reserve</label>
+          </div>         
+        </div>
+        <div class="side">
+          <h6 class="border-bottom pt-2 text-dark ">type</h6>
+          <div class="form-check form-check-block">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox6" value="option1">
+            <label class="form-check-label small" for="inlineCheckbox1">order</label>
+          </div>
+          <div class="form-check form-check-block">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox0" value="option2">
+            <label class="form-check-label small" for="inlineCheckbox2">reserve</label>
+          </div>
+          <div class="form-check form-check-block">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox7" value="option2">
+            <label class="form-check-label small" for="inlineCheckbox2">reserve</label>
+          </div>         
+        </div>
+        <div class="side">
+          <h6 class="border-bottom pt-2 text-dark ">Price range</h6>
+          <div class="form-check form-check-block">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox8" value="option1">
+            <label class="form-check-label small" for="inlineCheckbox1">10$- 30$</label>
+          </div>
+          <div class="form-check form-check-block">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox9" value="option2">
+            <label class="form-check-label small" for="inlineCheckbox2">40$- 90$</label>
+          </div>
+          <div class="form-check form-check-block">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox12" value="option2">
+            <label class="form-check-label small" for="inlineCheckbox2">100$- 200$</label>
+          </div>         
         </div>
       </aside>
-      <section class=" our-shop col-9 mx-auto">
+      <section class=" our-shop col-8 ">
         <div class="presentation">
-          <h2 class="text-secondary text-light text-center "> RESULT OF SEARCH </h2>
-          <div class="img-shop row mx-auto w-90">
-            <img class="col-lg-5 col-10 p-3" src="ressources/cake.jpeg" alt="bak">
-            <img class="col-lg-5 col-10 p-3" src="ressources/hambourger.jpeg" alt="bak">
+          <h2 class="text-dark text-light text-center "> RESULT OF SEARCH </h2>
+          <div class="img-shop row  mx-auto w-100">
+            <div class="col-lg-6 col-10">
+              <img class="mr-3 " src="ressources/cake.jpeg" alt="bak">
+              <p class="pl-3 small text-dark">no longer have a money problem no matter where you are. your phone your wallet</p>
+              <h5 class="position absolute text-warning pl-3 small"><span>10$</span> 6,99 $</h5>
+            </div>
+            <div class="col-lg-6 col-10">
+              <img class="ml-4 " src="ressources/hambourger.jpeg" alt="bak">
+              <p class="pl-3 small text-dark">no longer have a money problem no matter where you are. your phone your wallet</p>
+              <h5 class="position absolute text-warning pl-3 small"><span>10$</span> 6,99 $</h5>
+            </div>
           </div>
         </div>
       </section>
@@ -96,7 +152,7 @@
     <section class="favourite">
       <div class="artics text-center py-4">
         <h2>which article do you like?</h2>
-        <p>here all a variety of goods, </p>
+        <p>here's all a variety of goods, </p>
       </div>
    
       <div class="row w-90 mx-auto">
@@ -127,7 +183,7 @@
           <h5 class="position absolute text-warning"><span>10$</span> 6,99 $</h5>
         </div>
         <div class="col-lg-4 col-6 d-flex griz flex-column">
-          <img src="ressources/biscuits.jpeg" alt="bs">
+          <img src="ressources/cake.jpeg" alt="bs">
           <p>the food of your choice on cheap price</p>
           <h5 class="position absolute text-warning"><span>10$</span> 6,99 $</h5>
         </div>
@@ -189,7 +245,7 @@
         </div>
       </div>
       <p class="text-secondary text-center small">we are here to serve you. your satisfaction is our proud</p>
-            
+      <h6 class="copyr text-center text-secondary">@copyright:all right reserved</h6>      
     </div>
   </footer>    
 </body>

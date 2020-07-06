@@ -109,19 +109,11 @@ footer {
 }
 
 .img-shop {
-  max-width: 82%;
+  max-width: 78%;
 }
 
 .nav-link a {
   color: #888;
-}
-
-.sidenav a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 18px;
-  color: #222;
-  display: block;
 }
 
 .nav-link a:hover {
@@ -139,10 +131,10 @@ form label {
   margin: 0 5px;
 }
 
-.img-shop img {
-  height: 250px;
-  max-width: 400px;
-}
+/* .img-shop img {
+  height: 220px;
+  max-width: 350px;
+} */
 
 .socials a img {
   width: 20px;
@@ -152,8 +144,7 @@ form label {
 }
 
 .img-shop img:hover {
-  width: 500px;
-  background-color: red;
+  width: 400px;
   background-image: linear-gradient(red, yellow);
   box-shadow: 15px 10px rgba(173, 142, 142, 0.75);
 }
@@ -167,19 +158,13 @@ form label {
   width: 90%;
 }
 
-.sidenav {
-  margin-top: 5rem;
-  width: 160px;
-  z-index: 1;
-  left: 0;
-  background-color: #eee;
-  overflow-x: hidden;
-  padding-top: 20px;
+.side h6 {
+  color: #222;
+  font-size: 14px;
 }
 
-.sidenav a:hover {
-  color: #222;
-  background-color: wheat;
+.copyr {
+  font-size: 10px;
 }
 
 @media only screen and (max-width: 768px) {
