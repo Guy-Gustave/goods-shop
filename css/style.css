@@ -36,6 +36,8 @@ nav {
 
 main {
   color: #ddd;
+  max-width: 99%;
+  margin: auto;
 }
 
 footer a {
@@ -182,6 +184,7 @@ form label {
 
 @media only screen and (max-width: 768px) {
   .left-nav img,
+  .dropdown,
   .right-hand button {
     display: none;
   }
@@ -201,10 +204,48 @@ form label {
   }
 
   .title h1 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 
   .title p {
     font-size: 25px;
+  }
+
+  nav {
+    display: inline-block;
+    justify-content: space-between;
+    max-width: 99%;
+    margin: auto;
+  }
+
+  footer {
+    width: 98%;
+    margin: auto;
+  }
+
+  .lins {
+    font-size: 16px;
+  }
+
+  .liste a {
+    font-size: 11px;
+  }
+
+  .user {
+    width: 18px;
+    height: 30px;
+    padding: 2px;
+    margin: 0;
+  }
+
+  .artics h2 {
+    font-size: 20px;
+  }
+
+  .socials a img {
+    width: 15px;
+    height: 15px;
+    margin: 0 2px;
+    filter: invert(20%);
   }
 }

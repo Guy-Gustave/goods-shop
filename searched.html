@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>electronics e-shop</title>
+  <title>goods e-shop</title>
   <!-- bootstrap -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
@@ -20,21 +20,20 @@
   <link rel="stylesheet" href="css/reset.css">
 </head>
 <body>
-  <nav class="container-fluid d-flex justify-content-between align-content-center w-100" >  
+  <nav class="container-fluid d-flex flex-fill justify-content-between align-content-center w-100" >  
     <div class=" left-nav d-none d-lg-flex flex-row text-white text-bolder m-2 ">         
-      <img src="ressources/shop.jpg" alt="sh">
-      <h3 class="name mx-3"> KAZE </h3>
+      <img src="ressources/shop.jpg" alt="shop">
+      <h3 class="name mx-3 text-light"> KAZE </h3>
     </div>
-    <div class="middle-nav d-lg-flex">
+    <div class="middle-nav d-flex ">
       <ul class="nav-link d-flex flex flex-row list-unstyled justify-content-between align-items-center pt-3">
-        <li><a class=" mx-3" href="index.html">HOME</a></li>
-        <li><a class=" mx-3" href="#">COLLECTION</a></li>
-        <li><a class=" mx-3" href="searched.html">SEARCH</a></li>
+        <li><a class=" mx-2 lins" href="index.html">HOME</a></li>
+        <li><a class=" mx-2 lins" href="#">COLLECTION</a></li>
+        <li><a class=" mx-2 lins" href="">SEARCH</a></li>
       </ul>
     </div>
-
     <div class="right-hand d-flex flex-row align-items-center px-2">
-    
+
       <div class="dropdown">
         <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" >Language</button>
         <div class="dropdown-menu" >
@@ -43,7 +42,6 @@
           <a class="dropdown-item" href="#">swahili</a>
         </div>
       </div>
-    
       <a href="#"><img src="ressources/user.png" class="user" alt="user"> </a>
       <button class="rounded border-0 p-1 text-white bg-secondary">SUBSCRIBE</button>
     </div>
@@ -75,7 +73,7 @@
       <a href="searched.html" class="btn btn-light text-dark bg-secondary" role="button">search here</a>
     </div>
     <div class="row">
-      <aside class="left-sidebar d-block w-100 col-3">
+      <aside class="left-sidebar d-none d-lg-block w-100 col-3 ">
         <div class="sidenav">
           <h2 class="pl-4">products</h2>
           <a href="#about">Services</a>
@@ -85,7 +83,7 @@
           <a href="#contact">Fruits</a>
         </div>
       </aside>
-      <section class=" our-shop col-9">
+      <section class=" our-shop col-9 mx-auto">
         <div class="presentation">
           <h2 class="text-secondary text-light text-center "> RESULT OF SEARCH </h2>
           <div class="img-shop row mx-auto w-90">
@@ -190,7 +188,7 @@
           </div>
         </div>
       </div>
-      <p class="text-secondary text-center">we are here to serve you. your satisfaction is our proud</p>
+      <p class="text-secondary text-center small">we are here to serve you. your satisfaction is our proud</p>
             
     </div>
   </footer>    

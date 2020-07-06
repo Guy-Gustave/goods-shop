@@ -11,11 +11,11 @@ Capstone project solo, html project built at the end of the first of  Main Techn
 
   <p align="center">
     A simple clone of the The GOODS-SHOP Page.
-    <br />    
+    <br /> 
+    <a href="https://www.loom.com/share/1cfdb4d252f748bea4ea80cfd2e9bf49"> project's description</a>   
     <br />
     ·
-     <a href="https://raw.githack.com/Guy-Gustave/goods-shop/feature-branch/index.html ">Live Demo</a>
-     <a href="https://www.loom.com/share/1cfdb4d252f748bea4ea80cfd2e9bf49">description of the project</a>
+     <a href="https://raw.githack.com/Guy-Gustave/goods-shop/feature-branch/index.html"> Live Demo</a>
     ·    
   </p>
 </p>
