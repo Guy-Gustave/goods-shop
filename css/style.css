@@ -24,8 +24,7 @@ nav {
 }
 
 .head-presentation {
-  /* background: linear-gradient(120deg, rgba(185, 209, 79, 0.7) 0%, rgba(0, 0, 0, 0.9) 100%); */
-  background-color: #D35266;
+  background-color: #d35266;
 }
 
 .form-control {
@@ -90,12 +89,12 @@ footer a {
 @-webkit-keyframes glow {
   from {
     color: #fff;
-    text-shadow: 0 0 10px #535d5f, 0 0 20px #923c7d, 0 0 30px #c5a6be, 0 0 40px #d32e5f, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2, 0 0 90px #00fff2;
+    text-shadow: 0 0 10px #535d5f, 0 0 20px #923c7d, 0 0 30px #c5a6be, 0 0 40px #d32e5f, 0 0 50px #00fff2, 0 0 60px #00fff2;
   }
 
   to {
     color: rgb(245, 238, 238);
-    text-shadow: 0 0 20px #cf3eb7, 0 0 30px #db2b2b, 0 0 40px #732791, 0 0 50px #ff0040, 0 0 60px #00fff2, 0 0 70px #00fff2, 0 0 80px #00fff2, 0 1 90px #00fff2;
+    text-shadow: 0 0 20px #cf3eb7, 0 0 30px #db2b2b, 0 0 40px #732791, 0 0 50px #ff0040, 0 0 60px #00fff2, 0 0 70px #00fff2;
   }
 }
 
@@ -112,11 +111,19 @@ footer {
 }
 
 .nav-link a {
-  color: #888888;
+  color: #888;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #222;
+  display: block;
 }
 
 .nav-link a:hover {
-  color: #D35266;
+  color: #d35266;
   text-decoration: none;
 }
 
@@ -166,14 +173,6 @@ form label {
   background-color: #eee;
   overflow-x: hidden;
   padding-top: 20px;
-}
-
-.sidenav a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 18px;
-  color: #222;
-  display: block;
 }
 
 .sidenav a:hover {
