@@ -180,10 +180,6 @@ form label {
   background-color: wheat;
 }
 
-.bg-s {
-  background: #888,
-}
-
 @media only screen and (max-width: 768px) {
   .left-nav img,
   .right-hand button {
