@@ -24,7 +24,8 @@ nav {
 }
 
 .head-presentation {
-  background: linear-gradient(120deg, rgba(185, 209, 79, 0.7) 0%, rgba(0, 0, 0, 0.9) 100%);
+  /* background: linear-gradient(120deg, rgba(185, 209, 79, 0.7) 0%, rgba(0, 0, 0, 0.9) 100%); */
+  background-color: #D35266;
 }
 
 .form-control {
@@ -35,8 +36,7 @@ nav {
 }
 
 main {
-  background: linear-gradient(180deg, rgba(177, 80, 85, 0.7) 0%, rgba(0, 0, 0, 0.9) 100%), url(../ressources/pickup.jpg);
-  color: #fff;
+  color: #ddd;
 }
 
 footer a {
@@ -50,11 +50,8 @@ footer a {
   text-decoration: none;
 }
 
-.nav-list button {
-  width: 200px;
-  height: 50px;
-  background: linear-gradient(to left, rgb(138, 102, 102) 25%, rgb(180, 176, 176) 50%, rgb(233, 168, 168) 75%, rgb(238, 203, 203) 75%);
-  border-radius: 10px;
+.articles p{
+  color: #383838;
 }
 
 .articles img {
@@ -64,6 +61,10 @@ footer a {
 .articles span {
   text-decoration: line-through;
   padding-left: 15px;
+}
+
+.favourite {
+  color: #383838;
 }
 
 .title p {
@@ -78,23 +79,23 @@ footer a {
 }
 
 .title h1 {
-  font-size: 7rem;
+  font-size: 6rem;
   text-align: center;
   font-weight: bold;
   -webkit-animation: glow 2s ease-in-out infinite alternate;
-  -moz-animation: glow 2s ease-in-out infinite alternate;
+  -moz-animation: glow 2s ease-in;
   animation: glow 2s ease-in-out infinite alternate;
 }
 
 @-webkit-keyframes glow {
   from {
     color: #fff;
-    text-shadow: 0 0 10px #13c7e7, 0 0 20px #00fff2, 0 0 30px #c714a0, 0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2, 0 0 90px #00fff2;
+    text-shadow: 0 0 10px #535d5f, 0 0 20px #923c7d, 0 0 30px #c5a6be, 0 0 40px #d32e5f, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2, 0 0 90px #00fff2;
   }
 
   to {
-    color: rgb(236, 148, 148);
-    text-shadow: 0 0 20px #10e2d8, 0 0 30px #00fff2, 0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2, 0 0 80px #00fff2, 0 1 90px #00fff2;
+    color: rgb(245, 238, 238);
+    text-shadow: 0 0 20px #cf3eb7, 0 0 30px #db2b2b, 0 0 40px #732791, 0 0 50px #ff0040, 0 0 60px #00fff2, 0 0 70px #00fff2, 0 0 80px #00fff2, 0 1 90px #00fff2;
   }
 }
 
@@ -103,11 +104,24 @@ footer a {
 }
 
 footer {
-  background-color: rgb(231, 210, 210);
+  border-top: 1px solid gray;
 }
 
 .img-shop {
   max-width: 82%;
+}
+
+.nav-link a {
+  color: #888888;
+}
+
+.nav-link a:hover {
+  color: #D35266;
+  text-decoration: none;
+}
+
+form label {
+  color: #383838;
 }
 
 .middle-footer img {
@@ -149,7 +163,7 @@ footer {
   width: 160px;
   z-index: 1;
   left: 0;
-  background-color: white transparent;
+  background-color: #eee;
   overflow-x: hidden;
   padding-top: 20px;
 }
@@ -157,8 +171,8 @@ footer {
 .sidenav a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
-  font-size: 25px;
-  color: #818181;
+  font-size: 18px;
+  color: #222;
   display: block;
 }
 
@@ -168,7 +182,7 @@ footer {
 }
 
 .bg-s {
-  background: linear-gradient(180deg, rgba(177, 80, 85, 0.7) 0%, rgba(0, 0, 0, 0.9) 100%), url(../ressources/pickup.jpg);
+  background: #888888,
 }
 
 @media only screen and (max-width: 768px) {

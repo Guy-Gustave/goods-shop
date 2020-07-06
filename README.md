@@ -1,5 +1,5 @@
 # Goods-e-shop
-Capstone project solo, html project built at the end of the first of  Main Technical Curriculum sections. 
+Capstone project solo, html project built at the end of the first of  Main Technical Curriculum sections. the project consists of building a wbsite of a shop of foods; he his built with 2 pages, main page(index.html) and the page of results of search(searched.html) it was done with HTML, CSS and bootstrap, using Positioning and Layout (Including Grid and Flexbox), and Media Query. 2 Pages completely responsive!
 
 ## This is a clone application of GOODS-SHOP.
 <img src="ressources/capt1.png" width="700px"> 
