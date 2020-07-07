@@ -64,14 +64,9 @@ footer a {
   padding-left: 15px;
 }
 
-.favourite {
-  color: #383838;
-}
-
 .title p {
   font-size: 2rem;
   text-align: center;
-  color: #13c7e7;
 }
 
 .artics h2:hover {
@@ -80,28 +75,20 @@ footer a {
 }
 
 .title h1 {
-  font-size: 6rem;
+  font-size: 7rem;
   text-align: center;
   font-weight: bold;
-  -webkit-animation: glow 2s ease-in-out infinite alternate;
-  -moz-animation: glow 2s ease-in;
-  animation: glow 2s ease-in-out infinite alternate;
-}
-
-@-webkit-keyframes glow {
-  from {
-    color: #fff;
-    text-shadow: 0 0 10px #535d5f, 0 0 20px #923c7d, 0 0 30px #c5a6be, 0 0 40px #d32e5f, 0 0 50px #00fff2, 0 0 60px #00fff2;
-  }
-
-  to {
-    color: rgb(245, 238, 238);
-    text-shadow: 0 0 20px #cf3eb7, 0 0 30px #db2b2b, 0 0 40px #732791, 0 0 50px #ff0040, 0 0 60px #00fff2, 0 0 70px #00fff2;
-  }
+  color: #fff;
 }
 
 .mobile-money {
   height: 180px;
+}
+
+form input,
+form select {
+  width: 250px;
+  height: 50px;
 }
 
 footer {
@@ -110,6 +97,14 @@ footer {
 
 .img-shop {
   max-width: 78%;
+}
+
+.imagees img {
+  width: 300px;
+}
+
+.btn-rose {
+  background-color: #d35266;
 }
 
 .nav-link a {
@@ -131,27 +126,11 @@ form label {
   margin: 0 5px;
 }
 
-/* .img-shop img {
-  height: 220px;
-  max-width: 350px;
-} */
-
 .socials a img {
   width: 20px;
   height: 20px;
   margin: 0 5px;
   filter: invert(20%);
-}
-
-.img-shop img:hover {
-  width: 400px;
-  background-image: linear-gradient(red, yellow);
-  box-shadow: 15px 10px rgba(173, 142, 142, 0.75);
-}
-
-.griz img:hover {
-  width: 400px;
-  height: 300px;
 }
 
 .w-90 {
