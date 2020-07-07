@@ -223,6 +223,14 @@ form label {
     margin: 0;
   }
 
+  .img-shop {
+    vertical-align: middle;
+  }
+
+  .img2 {
+    margin-left: 2px;
+  }
+
   .artics h2 {
     font-size: 20px;
   }
