@@ -1,5 +1,8 @@
 # Goods-e-shop
-Capstone project solo, html project built at the end of the first of  Main Technical Curriculum sections. the project consists of building a wbsite of a shop of foods; he his built with 2 pages, main page(index.html) and the page of results of search(searched.html) it was done with HTML, CSS and bootstrap, using Positioning and Layout (Including Grid and Flexbox), and Media Query. 2 Pages completely responsive!
+This project is a model of an e-commerce fashion store. It is based on the prototype made by [Mohammed Awad on Behance](https://www.behance.net/M_Awad)
+Capstone project solo. it's an Html project built at the end of the first of  Main Technical Curriculum sections. The project consists of building a website of a shop of foods; he is built with 2 pages, main page(index.html), and the page of the results of the search(searched.html). it is done with HTML, CSS, and bootstrap, using Positioning and Layout (Including Grid and Flexbox), and Media Query. 2 Pages completely responsive!
+
+**An e-shop website built for Kaze shop**
 
 ## This is a clone application of GOODS-SHOP.
 <img src="ressources/capt1.png" width="700px"> 
@@ -37,12 +40,21 @@ Capstone project solo, html project built at the end of the first of  Main Techn
   I am Gustave. I am part of the Microverse Program and I did this capstone project according to the required specifications.  
 
 ## Getting started
-**For this project, I tried our best to recreate the a online shop page. The main aim is to ensure the elements get placed and styled roughly the same way using responsive  booststrap as required.**
+**For this project, I tried our best to recreate the online shop page. The main aim is to ensure the elements get placed and styled roughly the same way using responsive bootstrap as required.**
 
-We built our own page in a .html text file and opened it in our browser to check it out. We carried out the following steps:
-  - First setup a github repository for the project.
-  - Then create a .html file where all our HTML markup will go
-  - Create a .css file where some elements of our styling code will reside
+To get a local copy of the repository please run the following commands on your terminal:
+```
+$ cd <folder>
+```
+```
+$ git clone git@github.com:Guy-Gustave/goods-shop.git
+```
+```
+$ cd to move into the downloaded folder
+```
+```
+drag and drop the index file into the browser
+```
   
 
 
@@ -67,6 +79,9 @@ Contributions, issues and feature requests are welcome!
    3. Commit your Changes (git commit -m 'Add some AmazingFeature')
    4. Push to the Branch (git push origin feature/AmazingFeature)
    5. Open a Pull Request
+
+## Show your support
+Give a :étoile:️ if you like this project!
 
 ### Acknowledgements
 
