@@ -1,8 +1,11 @@
 # Goods-e-shop
-This project is a model of e-shop food. It is based on the prototype made by [Mohammed Awad on Behance](https://www.behance.net/M_Awad)
+This project is a model of e-shop food. It is based on the prototype made by [Mohammed Awad on Behance](https://www.behance.net/M_Awad).
+
 Capstone project solo. it's an Html project built at the end of the first of  Main Technical Curriculum sections. The project consists of building a website of a shop of foods; he is built with 2 pages, main page(index.html), and the page of the results of the search(searched.html). it is done with HTML, CSS, and bootstrap, using Positioning and Layout (Including Grid and Flexbox), and Media Query. 2 Pages completely responsive!
 
 **An e-shop website built for Kaze shop**
+
+
 
 ## This is a clone application of GOODS-SHOP.
 
@@ -36,7 +39,7 @@ Capstone project solo. it's an Html project built at the end of the first of  Ma
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-  I am  Gustave. I am part of the Microverse Program and I did this capstone project according to the required specifications.  
+  I am  Gustave. I am part of the Microverse Program and I did this capstone project according to the required specifications, typography and color. 
 
 ## Getting started
 **For this project, I tried our best to recreate the online shop page. The main aim is to ensure the elements get placed and styled roughly the same way using responsive bootstrap as required.**

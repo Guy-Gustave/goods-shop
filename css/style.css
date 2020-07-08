@@ -153,6 +153,7 @@ form label {
 
 @media only screen and (max-width: 768px) {
   .left-nav img,
+  .form-group,
   .dropdown,
   .right-hand button {
     display: none;
