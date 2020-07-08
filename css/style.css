@@ -107,6 +107,11 @@ footer {
   background-color: #d35266;
 }
 
+.right-caption span {
+  font-weight: 100;
+  font-size: small;
+}
+
 .nav-link a {
   color: #888;
 }
