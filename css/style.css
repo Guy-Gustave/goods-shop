@@ -35,9 +35,13 @@ nav {
 }
 
 main {
-  color: #ddd;
   max-width: 99%;
   margin: auto;
+}
+
+.bgs {
+  background-color: #eee;
+  border-right: 1px grey;
 }
 
 footer a {
@@ -81,6 +85,12 @@ footer a {
   color: #fff;
 }
 
+.hot {
+  position: relative;
+  padding-left: 17rem;
+  padding-top: 2rem;
+}
+
 .mobile-money {
   height: 180px;
 }
@@ -88,7 +98,7 @@ footer a {
 form input,
 form select {
   width: 250px;
-  height: 50px;
+  height: 45px;
 }
 
 footer {
