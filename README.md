@@ -9,13 +9,13 @@ Capstone project solo. it's an Html project built at the end of the first of  Ma
 
 ## This is a clone application of GOODS-SHOP.
 
-<img src="ressources/capt2.png" width="700px"> 
+<img src="ressources/capt.png" width="700px"> 
 <br />
 <p align="center">
    <h3 align="center">GOODS-SHOP</h3>
 
   <p align="center">
-    A simple clone of the The GOODS-SHOP Page.
+    A simple clone of the GOODS-SHOP Page.
     <br /> 
     <a href="https://www.loom.com/share/1cfdb4d252f748bea4ea80cfd2e9bf49"> project's description</a>   
     <br />

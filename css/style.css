@@ -55,7 +55,8 @@ footer a {
   text-decoration: none;
 }
 
-.articles p {
+.articles p,
+form label {
   color: #383838;
 }
 
@@ -129,10 +130,6 @@ footer {
 .nav-link a:hover {
   color: #d35266;
   text-decoration: none;
-}
-
-form label {
-  color: #383838;
 }
 
 .middle-footer img {
