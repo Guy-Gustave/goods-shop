@@ -1,0 +1,236 @@
+body {
+  width: 98%;
+  margin: auto;
+  overflow-x: hidden;
+}
+
+.left-nav img {
+  width: 50px;
+  height: 40px;
+  filter: opacity(80%);
+  border-radius: 5px 5px;
+}
+
+nav {
+  height: 60px;
+  max-width: 100%;
+  background-color: #333;
+}
+
+.user {
+  width: 35px;
+  height: 45px;
+  filter: invert(80%);
+}
+
+.head-presentation {
+  background-color: #d35266;
+}
+
+.form-control {
+  width: 165px;
+  padding: 0 5px 0 20px;
+  color: #999;
+  font-size: 11px;
+}
+
+main {
+  max-width: 99%;
+  margin: auto;
+}
+
+.bgs {
+  background-color: #eee;
+  border-right: 1px grey;
+}
+
+footer a {
+  text-decoration: none;
+  color: #777;
+  font-size: small;
+}
+
+.nav-list a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.articles p,
+form label {
+  color: #383838;
+}
+
+.articles img {
+  height: 170px;
+}
+
+.articles span {
+  text-decoration: line-through;
+  padding-left: 15px;
+}
+
+.title p {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.artics h2:hover {
+  color: antiquewhite;
+  font-size: large;
+}
+
+.title h1 {
+  font-size: 7rem;
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+}
+
+.hot {
+  position: relative;
+  padding-left: 17rem;
+  padding-top: 2rem;
+}
+
+.mobile-money {
+  height: 180px;
+}
+
+form input,
+form select {
+  width: 250px;
+  height: 45px;
+}
+
+footer {
+  border-top: 1px solid gray;
+}
+
+.img-shop {
+  max-width: 78%;
+}
+
+.imagees img {
+  width: 300px;
+}
+
+.btn-rose {
+  background-color: #d35266;
+}
+
+.right-caption span {
+  font-weight: 100;
+  font-size: small;
+}
+
+.nav-link a {
+  color: #888;
+}
+
+.nav-link a:hover {
+  color: #d35266;
+  text-decoration: none;
+}
+
+.middle-footer img {
+  width: 40px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+.socials a img {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+  filter: invert(20%);
+}
+
+.w-90 {
+  width: 90%;
+}
+
+.side h6 {
+  color: #222;
+  font-size: 14px;
+}
+
+.copyr {
+  font-size: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .left-nav img,
+  .form-group,
+  .dropdown,
+  .right-hand button {
+    display: none;
+  }
+
+  .middle-footer a {
+    display: inline-flex;
+    justify-content: space-between;
+  }
+
+  .griz img {
+    height: 180px;
+  }
+
+  .left-nav h3 {
+    font-size: medium;
+    padding-top: 10px;
+  }
+
+  .title h1 {
+    font-size: 3rem;
+  }
+
+  .title p {
+    font-size: 25px;
+  }
+
+  nav {
+    display: inline-block;
+    justify-content: space-between;
+    max-width: 99%;
+    margin: auto;
+  }
+
+  footer {
+    width: 98%;
+    margin: auto;
+  }
+
+  .lins {
+    font-size: 16px;
+  }
+
+  .liste a {
+    font-size: 11px;
+  }
+
+  .user {
+    width: 18px;
+    height: 30px;
+    padding: 2px;
+    margin: 0;
+  }
+
+  .img-shop {
+    vertical-align: middle;
+  }
+
+  .img2 {
+    margin-left: 2px;
+  }
+
+  .artics h2 {
+    font-size: 20px;
+  }
+
+  .socials a img {
+    width: 15px;
+    height: 15px;
+    margin: 0 2px;
+    filter: invert(20%);
+  }
+}

@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>goods e-shop</title>
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+  <!-- scripts -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <!-- style.css -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/reset.css">
+</head>
+<body>
+  <nav class="container-fluid d-flex justify-content-between align-content-center w-100" >  
+    <div class=" left-nav d-none d-lg-flex flex-row text-white text-bolder m-2 ">         
+      <img src="ressources/shop.jpg" alt="shop">
+      <h3 class="name mx-3 text-light"> KAZE </h3>
+    </div>
+    <div class="middle-nav d-flex ">
+      <ul class="nav-link d-flex flex flex-row list-unstyled justify-content-between align-items-center pt-3">
+        <li><a class=" mx-2 lins" href="#">HOME</a></li>
+        <li><a class=" mx-2 lins" href="#">COLLECTION</a></li>
+        <li><a class=" mx-2 lins" href="searched.html">SEARCH</a></li>
+      </ul>
+    </div>
+    <div class="right-hand d-flex flex-row align-items-center px-2">
+
+    
+      <a href="#"><img src="ressources/user.png" class="user" alt="user"> </a>
+      <button class="rounded border-0 p-1 text-white bg-secondary">SUBSCRIBE</button>
+    </div>
+  </nav>
+  <div class="head-presentation d-flex flex-column justify-content-between">
+    <div class="title text-center">
+      <h1 class=""> kaze </h1>
+      <p class="text-light"> PURCHASE SOMETHING  BEFORE GOING HOME.</p>
+    </div>
+    <h2 class=" d-none d-lg-inline text-center text-light p-3">search for all articles </h2>
+    <div class="form-group d-none d-lg-flex flex-row flex-wrap justify-content-center py-2 mx-auto">
+      <form>
+        <input type="text" placeholder="enter the name " />
+      </form>
+      <form>
+        <select class="select" name="kind">
+          <option value="all">kind</option>
+          <option value="vegetables">vegetables</option>
+          <option value="cerealis">cerealis</option>
+          <option value="meat">TMeat</option>
+          <option value="fruits">fruits</option>
+          <option value="bread">bread</option>
+        </select>
+      </form>
+
+      <form>
+        <select class="select" name="colors">
+          <option value="all">Vegetables</option>
+          <option value="Cucumba">Cucumba</option>
+          <option value="Cabbage">Cabbage</option>
+          <option value="onion">Onion</option>
+          <option value="Asparagus">Asparagus</option>
+          <option value="tomatoes">tomatoes</option>
+          <option value="carots">Carrot</option>
+          <option value="lettuce">lettuce</option>
+        </select>
+      </form>
+
+      <a href="searched.html" class="btn btn-dark  text-secondary mb-2" role="button">search here</a>
+    </div>
+  </div>
+  <main class="">
+    
+    <section class="d-none  d-lg-flex flex-row justify-content-center m-2">
+      
+      <div class=" imagees mx-3">  
+        <img src="ressources/bg-shop.jpg" alt="shop" class=" ">
+      </div>
+      <div class="d-flex flex-column mx-3">
+        <h3 class="font-weight-bold text-dark"> the shop of your dream</h3>
+        <p class="text-dark">kaze Bakery | The Italian Bakery rosettabakery.com</p>
+        <div class="btn-group">
+          <button type="button" class="btn btn-rose">466$</button>
+          <button type="button" class="btn btn-rose">Promotion</button>
+        </div> 
+      </div>
+    </section>
+    <h2 class="text dark text-center mt-3">Foods</h2>
+    <section class="pub row mx-3">
+      <div class="articles d-flex  flex-column col-lg-3 col-sm-6 mx-auto pt-5 w-75">
+        <img src="ressources/meet-shop.jpeg" class="mx-3" alt="inyama">
+        <p class="pl-3">no longer have a money problem no matter where you are. your phone your wallet</p>
+        <h5 class="position absolute text-warning"><span>10$</span> 6,99 $</h5>
+      </div>
+      <div class="articles d-flex  flex-column col-lg-3 col-sm-6 mx-auto pt-5 w-75">
+        <img src="ressources/pizza.jpeg" class="mx-3" alt="inyama">
+        <p class="pl-3">no longer have a money problem no matter where you are. your phone your wallet</p>
+        <h5 class="position absolute text-warning"><span>10$</span> 6,99 $</h5>
+      </div>
+      <div class="articles d-flex  flex-column col-lg-3 col-sm-6 mx-auto pt-5 w-75">
+        <img src="ressources/biscuits.jpeg" class="mx-3" alt="inyama">
+        <p class="pl-3">no longer have a money problem no matter where you are. your phone your wallet</p>
+          <h5 class="position absolute text-warning"><span>10$</span> 6,99 $</h5>
+      </div>
+      <div class="articles d-flex  flex-column col-lg-3 col-sm-6 mx-auto pt-5 w-75">
+        <img src="ressources/cake.jpeg" class="mx-3" alt="inyama">
+        <p class="pl-3">no longer have a money problem no matter where you are. your phone your wallet</p>
+        <h5 class="position absolute text-warning"><span>10$</span> 6,99 $</h5>
+      </div>
+    </section>
+    <h2 class="text dark text-center mt-3">Juice</h2>
+    <section class="pub row mx-3">
+      <div class="articles d-flex  flex-column col-lg-3 col-sm-6 mx-auto pt-5 w-75">
+        <img src="ressources/juice.jpeg" class="mx-3" alt="inyama">
+        <p class="pl-3">no longer have a money problem no matter where you are. your phone your wallet </p>
+        <h5 class="position absolute text-warning"><span>10$</span> 6,99 $</h5>
+      </div>
+      
+      <div class="articles d-flex  flex-column col-lg-3 col-sm-6 mx-auto pt-5 w-75">
+        <img src="ressources/juice.jpeg" class="mx-3" alt="inyama">
+        <p class="pl-3">no longer have a money problem no matter where you are. your phone your wallet</p>
+          <h5 class="position absolute text-warning"><span>10$</span> 6,99 $</h5>
+      </div>
+      <div class="articles d-flex  flex-column col-lg-3 col-sm-6 mx-auto pt-5 w-75">
+        <img src="ressources/juice.jpeg" class="mx-3" alt="inyama">
+        <p class="pl-3">no longer have a money problem no matter where you are. your phone your wallet</p>
+          <h5 class="position absolute text-warning"><span>10$</span> 6,99 $</h5>
+      </div>
+      <div class="articles d-flex  flex-column col-lg-3 col-sm-6 mx-auto pt-5 w-75">
+        <img src="ressources/juice.jpeg" class="mx-3" alt="inyama">
+        <p class="pl-3">no longer have a money problem no matter where you are. your phone your wallet?</p>
+        <h5 class="position absolute text-warning"><span>10$</span> 6,99 $</h5>
+      </div>
+    </section>
+    <h2 class="text dark text-center mt-3">cosmetics</h2>
+    <section class="pub row mx-3">
+      <div class="articles d-flex  flex-column col-lg-3 col-sm-6 mx-auto pt-5 w-75">
+        <img src="ressources/labelo.jpeg" class="mx-3" alt="inyama">
+        <p class="pl-3">no longer have a money problem no matter where you are. your phone your wallet </p>
+        <h5 class="position absolute text-warning"><span>10$</span> 6,99 $</h5>
+      </div>
+      <div class="articles d-flex  flex-column col-lg-3 col-sm-6 mx-auto pt-5 w-75">
+        <img src="ressources/labelo.jpeg" class="mx-3" alt="inyama">
+        <p class="pl-3">no longer have a money problem no matter where you are. your phone your wallet</p>
+        <h5 class="position absolute text-warning"><span>10$</span> 6,99 $</h5>
+      </div>
+      <div class="articles d-flex  flex-column col-lg-3 col-sm-6 mx-auto pt-5 w-75">
+        <img src="ressources/labelo.jpeg" class="mx-3" alt="inyama">
+        <p class="pl-3">no longer have a money problem no matter where you are. your phone your wallet</p>
+          <h5 class="position absolute text-warning"><span>10$</span> 6,99 $</h5>
+      </div>
+      <div class="articles d-flex  flex-column col-lg-3 col-sm-6 mx-auto pt-5 w-75">
+        <img src="ressources/labelo.jpeg" class="mx-3" alt="inyama">
+        <p class="pl-3">no longer have a money problem no matter where you are. your phone your wallet</p>
+        <h5 class="position absolute text-warning"><span>10$</span> 6,99 $</h5>
+      </div>
+    </section>
+    <section class="payment mx auto">
+      <h2 class="text-center pt-4">payment</h2>
+     
+      <div class="row my-3 w-75 mx-auto">
+        <div class=" mobile-m col-lg-4 col-12 d-flex flex-column">
+          <img src="ressources/ecocash.jpeg" alt="eco">
+          <p class="text-dark">no longer have a money problem no matter where you are. your phone your wallet</p>
+        </div>
+        <div class=" mobile-m col-lg-4 col-12 d-flex flex-column mt-2">
+          <img src="ressources/lumicsh.jpeg" alt="eco">
+          <p class="text-dark">no longer have a money problem no matter where you are. your phone your wallet</p>
+        </div>
+        <div class=" mobile-m col-lg-4 col-12 d-flex flex-column">
+          <img src="ressources/visa.jpeg" alt="eco">
+          <p class="text-dark">no longer have a money problem no matter where you are. your phone your wallet</p>
+        </div>
+      </div>
+
+    </section>
+
+  </main>
+  <footer>
+    <div class="socials d-flex flex-column ">
+      <div class="foot1 d-flex justify-content-between mx-3">
+        <div class="logof d-none d-lg-flex">
+          <h2>kaze</h2>
+        </div>
+        <div class="middle-footer d-flex flex-row justify-content-between mt-2 ">
+          <a href="#" class="text-dark px-2 d-flex align-center pt-2">
+            <h5 class=" ">Make order every time you wish</h5></a>
+          <div class="d-flex mt-2">
+            <img src="ressources/hambourger.jpeg" alt="hm">
+            <img src="ressources/nutella.jpeg" alt="hm">
+            <img src="ressources/pizza.jpeg" alt="hm">
+          </div>
+        </div>   
+      </div>
+      
+      <div class=" d-flex justify-content-around foot-2 m-4 ">
+        <div class="menu-1 d-flex  flex-column mx-auto text-unstyled">
+          <h6 class="foot-head small">NEWS</h6>
+          <div class="liste text-secondary px-2"><a href="">HOME Page</a></div>
+          <div class="liste text-secondary px-2"><a href="">Our product</a></div>
+          <div class="liste text-secondary px-2"><a href="">about us</a></div>
+          <div class="liste text-secondary px-2"><a href="">promotion</a></div>
+          <div class="liste text-secondary px-2"><a href="">our features</a></div>     
+        </div>
+
+        <div class="menu-2 d-flex  flex-column mx-auto text-unstyled">
+          <h6 class="foot-head ">products</h6>
+          <div class="liste text-secondary px-2"><a href="">Vegetables</a></div>
+          <div class="liste text-secondary px-2"><a href="">fruits</a></div>
+          <div class="liste text-secondary px-2"><a href="">meets</a></div>
+          <div class="liste text-secondary px-2"><a href="">breads</a></div>
+          <div class="liste text-secondary px-2"><a href="">cerealis</a></div>
+        </div>
+        <div class="menu-3 d-none d-lg-flex  flex-column mx-auto">
+          <h5 class="small">suggestion? or issues?</h5>
+          <div class="form-group small">
+            <label for="textarea">write in comments here below</label>
+            <textarea class="form-control" id="textarea" rows="4" ></textarea>
+            <a href="#" class="btn btn-dark  text-light m-2" role="button">Send</a>
+          </div>
+        </div>
+        <div class="socials-icons  d-flex flex-wrap flex-column">
+          <div >
+            <h6>join us here</h6>
+          </div>
+          <div >
+            <a href="#"><img src="ressources/fb.svg" alt="fb"></a>
+            <a href="#"><img src="ressources/twitter.svg" alt="tw"></a>
+            <a href="#"><img src="ressources/insta.png" alt="ins"></a>
+            <a href="#"><img src="ressources/linkedin.png" alt="in"></a>
+          </div>
+        </div>
+      </div>
+      <p class="text-secondary text-center">we are here to serve you. your satisfaction is our proud</p>
+      <h6 class="copyr text-center text-secondary">@copyright:all right reserved</h6>
+    </div>
+  </footer>    
+</body>
+</html>
