@@ -112,6 +112,14 @@ footer {
 
 .imagees img {
   width: 300px;
+  animation-name: slide;
+  animation-duration: 1.5s;
+  /* animation-timing-function: ease-out; */
+}
+/* Image animation */
+@keyframes slide{
+  from {margin-right: 480px;}
+  to {margin-right: 0px;}
 }
 
 .btn-rose {
